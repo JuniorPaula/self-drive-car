@@ -4,7 +4,7 @@ export default class Controls {
         this.left = false
         this.right = false
         this.reverse = false
-        console.log("here")
+        
         this.#addKeyboradListeners()
     }
 
