@@ -1,5 +1,6 @@
 import Car from './car.mjs'
 import Road from './road.mjs'
+import Visualizer from './visualizer.mjs'
 
 const carCanvasId = "carCanvas"
 const networkCanvasId = "networkCanvas"
@@ -42,5 +43,8 @@ function animate() {
     car.draw(carCtx, "blue")
 
     carCtx.restore()
+
+    Visualizer.drawNetwork(networkCtx, car.brain)
+
     requestAnimationFrame(animate)
 }
