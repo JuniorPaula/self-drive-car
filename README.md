@@ -2,6 +2,10 @@
 
 The "Self Drive Car" project is a vehicle control system based on a Neural Network implemented in JavaScript. The project aims to develop an AI model capable of controlling an autonomous vehicle on a track, avoiding obstacles represented by other cars.
 
+<div align="center">
+   <img src="https://repository-images.githubusercontent.com/646170600/8496fbb1-3bc5-4b91-b15d-272a560767b3" width="720" />
+</div>
+
 ## Features
 
 - Autonomous vehicle control: The system utilizes a trained Neural Network to analyze the environment and make steering decisions for the vehicle, allowing it to navigate the track and avoid obstacles.
